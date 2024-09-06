@@ -7,13 +7,15 @@ public class Main {
     public static void main(String[] args) {
 
         int[][] nums2 = { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7} };
-
+        int sum = 0;
         for (int[] ints : nums2) {
 //            System.out.println(Arrays.toString(ints));
             for (int anInt : ints) {
-                System.out.println(anInt);
+                sum += anInt;
+
             }
         }
+        System.out.println(sum);
     }
 }
 
